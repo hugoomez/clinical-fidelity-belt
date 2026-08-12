@@ -1,0 +1,43 @@
+# Secrets — never commit
+.env
+.env.local
+.env.*.local
+*.key
+
+# Generated artefacts from runs against the real APIs
+output/
+*.pdf
+!docs/*.pdf
+
+# The production Recog sample is versioned data, not an artefact
+!data/reports/*.md
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+
+# Tooling caches
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# HuggingFace model cache
+.cache/
+
+# Working document for the repository cleanup — not part of the published work
+PLAN_TRANSFORMACION.md
+
+# IDEs
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db

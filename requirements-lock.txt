@@ -1,0 +1,46 @@
+# Reference environment for the results published in docs/results.md.
+#
+# These are the exact versions the belt was calibrated and measured against, on
+# CPython 3.14.2 / Windows 11. pyproject.toml carries permissive ranges so the
+# package stays installable alongside others; this file exists so that a
+# published number can be reproduced rather than approximated.
+#
+#   pip install -r requirements-lock.txt
+#   pip install -e . --no-deps
+#
+# Direct dependencies are grouped by extra; transitive pins that materially
+# affect behaviour are listed at the end.
+
+# --- core ---
+pydantic==2.12.5
+httpx==0.28.1
+textstat==0.7.13
+google-genai==1.60.0
+python-dotenv==1.2.2
+
+# --- [api] ---
+fastapi==0.135.2
+uvicorn==0.42.0
+python-multipart==0.0.26
+
+# --- [ml] : semantic belt backends (BSC NER, mDeBERTa NLI) ---
+transformers==4.57.6
+torch==2.11.0
+
+# --- [live] : real Idonia and Recog APIs ---
+PyJWT==2.13.0
+PyMuPDF==1.27.1
+
+# --- [dev] ---
+pytest==9.0.2
+pytest-asyncio==1.4.0
+ruff==0.16.2
+
+# --- transitive pins that affect measured behaviour ---
+pydantic_core==2.41.5
+starlette==1.0.0
+anyio==4.12.1
+httpcore==1.0.9
+tokenizers==0.22.2
+safetensors==0.8.0
+numpy==2.3.5

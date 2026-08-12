@@ -1,0 +1,11 @@
+# Normalise line endings so the repository is identical across platforms.
+* text=auto eol=lf
+
+# Binary artefacts must never be normalised.
+*.pdf binary
+*.png binary
+*.jpg binary
+
+# Clinical reports are the evaluation dataset: keep diffs word-based so that a
+# change to a finding is readable in review.
+data/reports/*.md diff

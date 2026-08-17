@@ -64,4 +64,4 @@ suite and the demo output were held as the invariant throughout.
   release. Regenerate with `python scripts/fetch_recog_output.py`.
 - Idonia live mode has never been validated end to end.
 
-[1.0.0]: https://github.com/USER/idonia-recog-orchestrator/releases/tag/v1.0.0
+[1.0.0]: https://github.com/hugoomez/clinical-fidelity-belt/releases/tag/v1.0.0

@@ -2,7 +2,7 @@
 
 **Un control de calidad cuantitativo para informes radiológicos dirigidos al paciente**
 
-[![CI](https://github.com/USER/idonia-recog-orchestrator/actions/workflows/ci.yml/badge.svg)](https://github.com/USER/idonia-recog-orchestrator/actions/workflows/ci.yml)
+[![CI](https://github.com/hugoomez/clinical-fidelity-belt/actions/workflows/ci.yml/badge.svg)](https://github.com/hugoomez/clinical-fidelity-belt/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Python 3.10+](https://img.shields.io/badge/python-3.10%2B-blue.svg)](https://www.python.org/downloads/)
 [![Data: CC BY 4.0](https://img.shields.io/badge/data-CC%20BY%204.0-lightgrey.svg)](data/reports/README.md)

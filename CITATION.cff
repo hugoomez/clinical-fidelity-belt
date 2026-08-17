@@ -11,16 +11,14 @@ abstract: >-
   simplification and severity attenuation, and the demonstration that lexical
   methods cannot draw it while an LLM-as-a-judge with explicit grounding can.
 authors:
-  # TODO: add `orcid: "https://orcid.org/0000-0000-0000-0000"` if available,
-  # and complete the second surname if it should appear in citations.
-  - family-names: "Gómez"
+  - family-names: "Gómez García"
     given-names: "Hugo"
     email: "nanaysonic@gmail.com"
+    orcid: "https://orcid.org/0009-0003-4137-1705"
 version: "1.0.0"
 date-released: "2026-08-12"
 license: MIT
-# TODO: set the real repository URL once published.
-repository-code: "https://github.com/USER/idonia-recog-orchestrator"
+repository-code: "https://github.com/hugoomez/clinical-fidelity-belt"
 keywords:
   - clinical NLP
   - patient-facing reports

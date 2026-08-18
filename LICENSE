@@ -19,20 +19,3 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-
----
-
-NOTE ON THE EVALUATION DATASET
-
-The clinical reports in `data/reports/` are not covered by the MIT License
-above. They are released under Creative Commons Attribution 4.0 International
-(CC BY 4.0): https://creativecommons.org/licenses/by/4.0/
-
-See `data/reports/README.md`.
-
-NOTE ON CLINICAL USE
-
-This software is research code. It is not a medical device, has not been
-clinically validated, and must not be used to make clinical decisions or to
-generate documents delivered to real patients without independent professional
-review.

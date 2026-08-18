@@ -208,6 +208,11 @@ Ver [CITATION.cff](CITATION.cff).
 Código bajo [licencia MIT](LICENSE). El dataset de evaluación en `data/` se
 publica por separado bajo [CC BY 4.0](data/reports/README.md).
 
+**Esto es código de investigación, no un producto sanitario.** No ha sido
+validado clínicamente y no debe usarse para generar documentos entregados a
+pacientes reales sin revisión profesional independiente. Ver
+[NOTICE.md](NOTICE.md).
+
 ## Agradecimientos
 
 Desarrollado para el **hackathon IABiomed 2026** de la Universidad de León.

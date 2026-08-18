@@ -226,6 +226,10 @@ See [CITATION.cff](CITATION.cff).
 Code under the [MIT License](LICENSE). The evaluation dataset in `data/` is
 released separately under [CC BY 4.0](data/reports/README.md).
 
+**This is research code, not a medical device.** It has not been clinically
+validated and must not be used to generate documents delivered to real patients
+without independent professional review. See [NOTICE.md](NOTICE.md).
+
 ## Acknowledgements
 
 Developed for the **IABiomed 2026 hackathon** at the Universidad de León.
